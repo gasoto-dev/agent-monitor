@@ -1,6 +1,3 @@
-/**
- * @jest-environment node
- */
 import { NextResponse } from "next/server"
 import { getActivities, getTasks, getMetrics, seedIfEmpty } from "@/lib/db"
 import { getAgents } from "@/lib/agents"
